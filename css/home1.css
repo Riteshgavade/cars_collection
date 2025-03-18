@@ -1,0 +1,39 @@
+        body {
+            background-image: url("mustang-3.jpg");
+            background-size: 100%;
+            background-repeat: no-repeat;
+        }
+        
+        nav {
+            list-style-type: none;
+            margin: 0;
+            padding: 10PX;
+            text-decoration: none;
+            /* overflow: hidden */
+            /* background-color: #333; */
+        }
+        
+        nav a {
+            /* display: block; */
+            color: rgb(71, 92, 75);
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 23px;
+            font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+        }
+        /*  nav li a:hover {
+            background-color: #111;
+        } */
+        
+        nav:hover {
+            display: block;
+            filter: drop-shadow(0 0 10px rgb(9, 8, 8));
+        }
+        
+        div {
+            text-align: center;
+            padding: 15% 0;
+            color: rgb(171, 191, 207);
+            font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+        }
