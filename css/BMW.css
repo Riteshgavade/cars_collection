@@ -8,8 +8,25 @@
         align-items: center;
         /* min-height: 20vh; */
     }
+    /* .title {
+        color: #565656;
+        font-family: bmwTypeNextWeb, Arial, Helvetica, sans-serif;
+        font-size: 35px;
+        font-weight: 100;
+        line-height: 50px;
+    } */
     
-    .title {
+    .title img {
+        /* background-image: url("C:\Users\rites\Desktop\project\css\bmw.png"); */
+        /* position: center; */
+        width: 160px;
+        height: 80px;
+        float: left;
+    }
+    
+    #subtitle {
+        padding-top: 20px;
+        /*padding-bottom: 60px; */
         /* color: rgb(38, 38, 38); */
         color: #565656;
         font-family: bmwTypeNextWeb, Arial, Helvetica, sans-serif;
@@ -17,19 +34,11 @@
         font-size: 35px;
         font-weight: 100;
         line-height: 50px;
-        /* padding-top: 100px; */
-        /* padding-left: 100px; */
-        /* padding-right: 100px; */
-    }
-    
-    .title img {
-        /* background-image: url("C:\Users\rites\Desktop\project\css\bmw.png"); */
-        /* position: center; */
-        width: 160px;
-        height: 80px;
     }
     
     nav {
+        padding-top: 25px;
+        clear: left;
         gap: 200;
     }
     
@@ -56,14 +65,17 @@
     .container {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        /* gap: 20px; */
-        max-width: 10000px;
+        gap: 25px;
+        /*max-width: 10000px;*/
         row-gap: 30px;
     }
     
     .card {
         /* background: #c2c2bc;
-        border-radius: 25px; */
+        /*border-radius: 25px; */
+        height: 350px;
+        width: 363.2px;
+        /* background-color: #565656; */
         overflow: hidden;
         display: flex;
         flex-direction: column;
