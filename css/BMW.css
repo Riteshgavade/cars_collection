@@ -63,18 +63,20 @@
     }
     
     .container {
+        /* float: left; */
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         gap: 25px;
-        /*max-width: 10000px;*/
+        max-width: 1320px;
         row-gap: 30px;
     }
     
     .card {
+        /* padding-right: 100px; */
         /* background: #c2c2bc;
         /*border-radius: 25px; */
-        height: 350px;
-        width: 363.2px;
+        height: 300px;
+        width: 330px;
         /* background-color: #565656; */
         overflow: hidden;
         display: flex;
